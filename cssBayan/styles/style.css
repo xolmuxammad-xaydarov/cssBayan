@@ -63,14 +63,70 @@ h1 {
 .meme-list:hover .svg {
   opacity: 1;
 }
+.meme-list li:hover .svg {
+  transform: rotate(50deg);
+  -ms-transform: rotate(50deg);
+  -webkit-transform: rotate(50deg);
+}
 
-#btnCheck {
+#btnCheck1 {
   display: none;
 }
 
-#btnCheck:checked + label > img {
+#btnCheck1:checked + label > img {
   width: 50%;
   height: 50%;
   opacity: 1;
-  
+}
+
+#btnCheck1:checked{
+  transform: rotate(50deg);
+  -ms-transform: rotate(50deg);
+  -webkit-transform: rotate(50deg);
+}
+#btnCheck2 {
+  display: none;
+}
+
+#btnCheck2:checked + label > img {
+  width: 50%;
+  height: 50%;
+  opacity: 1;
+}
+
+#btnCheck3 {
+  display: none;
+}
+
+#btnCheck3:checked + label > img {
+  width: 50%;
+  height: 50%;
+  opacity: 1;
+}
+#btnCheck4 {
+  display: none;
+}
+
+#btnCheck4:checked + label > img {
+  width: 50%;
+  height: 50%;
+  opacity: 1;
+}
+#btnCheck5 {
+  display: none;
+}
+
+#btnCheck5:checked + label > img {
+  width: 50%;
+  height: 50%;
+  opacity: 1;
+}
+#btnCheck6 {
+  display: none;
+}
+
+#btnCheck6:checked + label > img {
+  width: 50%;
+  height: 50%;
+  opacity: 1;
 }
