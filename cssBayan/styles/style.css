@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(243, 235, 221);
+}
+.container {
+  max-width: 70vw;
+  margin: 0 auto;
+}
+h1 {
+  margin-top: 1rem;
+  font-size: clamp(1.5rem, 3.5vw, 4rem);
+  padding: 1rem 0;
+}
+.meme-list .meme-image {
+  width: 0%;
+  height: 0%;
+  padding: 10px 0;
+  display: block;
+  margin: 0 auto;
+  transition: 0.5s;
+}
+.meme-list li {
+  min-height: 10vh;
+  padding: 3vh 0 0 0;
+  border-top: 1px solid rgb(183, 186, 186);
+  font-size: clamp(1rem, 2vw, 2rem);
+  transition: 0.2s;
+}
+
+.meme-list li:hover .meme-image {
+  width: 50%;
+  height: 50%;
+  opacity: 1;
+  cursor: pointer;
+}
+.btn:hover{
+  cursor: pointer;
+}
+.text-flex {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-flex .svg {
+  max-width: 9vw;
+  max-height: 5vh;
+  opacity: 0;
+  transition: 0.5s;
+}
+.meme-list:hover .svg {
+  opacity: 1;
+}
+.meme-list li:hover .svg {
+  transform: rotate(50deg);
+  -ms-transform: rotate(50deg);
+  -webkit-transform: rotate(50deg);
+}
+
+#btnCheck1 {
+  display: none;
+}
+
+#btnCheck1:checked + label > img {
+  width: 50%;
+  height: 50%;
+  opacity: 1;
+}
+#btnCheck1:active {
+  opacity: 0.3;
+}
+
+#btnCheck1:checked {
+  transform: rotate(50deg);
+  -ms-transform: rotate(50deg);
+  -webkit-transform: rotate(50deg);
+}
+#btnCheck2 {
+  display: none;
+}
+
+#btnCheck2:checked + label > img {
+  width: 50%;
+  height: 50%;
+  opacity: 1;
+}
+
+#btnCheck3 {
+  display: none;
+}
+
+#btnCheck3:checked + label > img {
+  width: 50%;
+  height: 50%;
+  opacity: 1;
+}
+#btnCheck4 {
+  display: none;
+}
+
+#btnCheck4:checked + label > img {
+  width: 50%;
+  height: 50%;
+  opacity: 1;
+}
+#btnCheck5 {
+  display: none;
+}
+
+#btnCheck5:checked + label > img {
+  width: 50%;
+  height: 50%;
+  opacity: 1;
+}
+#btnCheck6 {
+  display: none;
+}
+
+#btnCheck6:checked + label > img {
+  width: 50%;
+  height: 50%;
+  opacity: 1;
+}
